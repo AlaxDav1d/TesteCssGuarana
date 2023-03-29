@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cabeca{
+    background-image: url('../img/guara.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    padding:200px 50px;
+}
+.titulo{
+    border-bottom: 2px solid black;
+    color: #a52a2a;
+    width: 100%;
+}
+.tabela{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.menu {
+    padding: 20px;
+    background-color: black;
+}
+.menu a {
+    margin: 10px;
+    padding: 2px;
+    color: green;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: red;
+    transition: 1s;
+}
+.text-banner{
+    background-color: rgba(253, 152, 0, 0.262);
+    padding: 50px;
+    margin-right: 80%;
+    color: rgb(249, 166, 0);
+    font-size: larger;
+    text-transform: capitalize;
+    border: double white;
+    height: 280px;
+}
+
+.p1{
+    padding: 2%;
+    color: black;
+}
+.text-banner p{
+    color: aliceblue;
+}
+.baixo{
+    width: 100%;
+}
+.baixo .text1{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 81);
+}
+.text1{
+    float: left;
+    width: 33.3%;
+    padding-top: 50px;
+    text-align: center;
+}
+.text1 a{
+    color: green;
+}
+.text1 a:hover{
+    color: brown;
+}
+.rodape{
+     
+    text-align: center;
+    background-color:white;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+
+.rodape a{
+    padding: 20px;
+    border: double green;
+    padding: 0 30px;
+margin: 20px;
+text-decoration: none;
+color: rgb(95, 179, 11);
+}
+.rodape a:hover{
+    background-color: black;
+}
+.rodape p{
+    padding-bottom: 10px;
+}
+.sobre{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 2%;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    margin-bottom: 50px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sobre-text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sobre h2{
+    color: rgb(151, 252, 0);
+    text-align: center;
+    
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Combo', cursive;
+    font-size: xx-large;
+}
+.tabela tr,td,th{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+
+.tabela{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+
+}
+.parceiros{
+    text-align: center;
+    color: green;
+    text-transform: capitalize;
+}
+.conts{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 20px;
+  font-size: 30px;
+}
+.conts h2{
+    color: green;
+}
+.conts a{
+    width: 150px;
+    height: 100px;
+}
+.icons{
+  display: flex;
+  align-items:last baseline;
+  gap: 50px;
+}
+
+.influencers{
+    background-color:rgba(253, 152, 0, 0.262);
+}
+.influencers img{
+    width: 240px;
+}
+.defante img{
+    height: 190px;
+}
+.sobre-text1 h2{
+    padding-top: 60px;
+}
+.sobre-text1 p{
+    padding-top: 20px;
+}
+#youtube{
+    width: 150px;
+    height: 150px;
+}
+#twitter{
+    width: 150px;
+    height: 150px;
+}
+#insta{
+    width: 180px;
+    height: 150px;
+}
+#face{
+    width: 150px;
+    height: 150px;
+}
